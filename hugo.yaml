@@ -1,0 +1,70 @@
+baseURL: https://example.com
+languageCode: en-us
+title: Danish Joseph
+theme: github.com/nodejh/hugo-theme-mini
+
+# Default content language, support en (English) / zh (Chinese) / nl (Dutch) / fr (French) / es (Spanish) / da (Danish), default 'en'
+defaultContentLanguage: en
+
+paginate: 3
+
+# googleAnalytics: your-google-analytics-id
+disqusShortname: disqus_MW54FfHLTU
+
+# Hugo Configure Markup
+# More info: https://gohugo.io/getting-started/configuration-markup#
+markup:
+  highlight:
+    guessSyntax: true
+    style: emacs
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+    startLevel: 2
+  # needed to render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
+  goldmark:
+    renderer:
+      unsafe: true
+
+social:
+  # e.g.
+  github: https://github.com/danishjoseph
+  stackoverflow: https://stackoverflow.com/users/8774100/danishjoseph
+  linkedin: https://www.linkedin.com/in/danishjoseph
+  # facebook: your-facebook-link
+  # twitter: https://twitter.com/danishjoseph
+
+# Site parameters
+params:
+  # Site Author
+  author: Danish Joseph
+  # Author biography
+  bio: Software Engineer
+  # Site Description, used in HTML meat
+  description: My Personal Blog
+
+  ###########################################
+  # Optional Configuration
+  ###########################################
+  # To enable comments, you may need to set `disqusShortname`
+  enableComments: true
+  # To enable comments, you may need to set `googleAnalytics`
+  enableGoogleAnalytics: true
+  # To enable table of content, you could set `showToc: true`, default is `false`
+  showToc: true
+  # To hidden powerBy message in the page footer, you could set: `showPowerBy: false`, default is `true`
+  showPowerBy: false
+  # To enable math typesetting , you could set `math: true`, default is `false`
+  math: false
+  # To hidden post summary in home page, you could set `hiddenPostSummaryInHomePage: true`, default is `false`
+  hiddenPostSummaryInHomePage: false
+  # Website copyright, default: '© Copyright 2021 ❤️ {params.author}'
+  copyright: ''
+
+  useDescriptionReplaceSummary: true
+
+  # Extra links in navigation
+  links:
+    ## e.g.
+    - name: Projects
+      path: /project
