@@ -37,11 +37,11 @@ social:
 # Site parameters
 params:
   # Site Author
-  author: Danish Joseph
+  author: 'Danish Joseph'
   # Author biography
   bio: Software Engineer
   # Site Description, used in HTML meat
-  description: My Personal Blog
+  description: "Insights and tutorials on software engineering, coding best practices, and technology trends by Danish Joseph. Stay updated with the latest in software development and enhance your coding skills."
 
   ###########################################
   # Optional Configuration
