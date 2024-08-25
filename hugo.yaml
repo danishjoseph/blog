@@ -39,9 +39,9 @@ params:
   # Site Author
   author: 'Danish Joseph'
   # Author biography
-  bio: Software Engineer
+  bio: 'Software Engineer | Tech Enthusiast'
   # Site Description, used in HTML meat
-  description: "Insights and tutorials on software engineering, coding best practices, and technology trends by Danish Joseph. Stay updated with the latest in software development and enhance your coding skills."
+  description: 'Insights and tutorials on software engineering, coding best practices, and technology trends by Danish Joseph. Stay updated with the latest in software development and enhance your coding skills.'
 
   ###########################################
   # Optional Configuration
@@ -66,5 +66,5 @@ params:
   # Extra links in navigation
   links:
     ## e.g.
-    - name: Projects
-      path: /project
+    - name: Devlog
+      path: /devlog
