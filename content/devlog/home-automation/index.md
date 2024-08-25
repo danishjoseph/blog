@@ -32,7 +32,7 @@ This blog is about the further iterations done on the project to make it more re
 
 The initial prototype was build with available components and was not designed to be modular. The main idea behind the prototype was to make it work and test it in real world scenario. After a year of testing the prototype in multiple locations, we decided to make the hardware modular and more reliable.
 
-{{< figure src="./switch-module.png" title="Updated hardware 2022" >}}
+{{< figure src="./switch-module.png" title="Updated hardware 2022" width="280" >}}
 
 This is the updated hardware and works till now without any issues and the cost to build the device is less than 50$ which is very cheap when compared to the commercially available ones.
 
@@ -47,10 +47,10 @@ The firmware we decided to move to was [Tasmota](https://tasmota.github.io/docs/
 ## Upcoming Enhancements
 
 The upcoming enhancements for the project include adding support for capacitive touch (TTP223 modules) to replace mechanical switches, allowing devices to be controlled via touch.
-{{< figure src="./touch-module.jpeg"  title="TTP223 Touch pad detector" >}}
+{{< figure src="./touch-module.jpeg"  title="TTP223 Touch pad detector" width="280">}}
 
 This way the need for mechanical switches can be eliminated and a dummy switch on which the touch module can be placed.
 
-{{< figure src="./capacitive-switch.mov" title="Capacitive touch switches" >}}
+{{< figure src="./capacitive-switch.mov" title="Capacitive touch switches"  width="280">}}
 
 > The functionality is still in development and will be updated as soon as the new features are added. Stay tuned for more updates.
