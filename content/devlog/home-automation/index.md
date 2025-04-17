@@ -1,8 +1,8 @@
 ---
-title: 'Creating a Connected Home: An ESP8266 Project'
+title: "Creating a Connected Home: An ESP8266 Project"
 date: 2024-08-24T05:01:41+02:00
-summary: 'Building a home automation system from scratch using ESP8266 with google home integration'
-tags: ['#homeautomation', '#esp8266']
+summary: "Building a home automation system from scratch using ESP8266 with google home integration"
+tags: [homeautomation, esp8266]
 ---
 
 ```goat
