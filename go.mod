@@ -2,4 +2,7 @@ module github.com/danishjoseph/blog
 
 go 1.22
 
-require github.com/nodejh/hugo-theme-mini v0.0.0-20240322021354-34417888405c // indirect
+require (
+	github.com/nanxiaobei/hugo-paper v0.0.0-20260309084619-de1169ec320d // indirect
+	github.com/nodejh/hugo-theme-mini v0.0.0-20240322021354-34417888405c // indirect
+)

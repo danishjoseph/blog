@@ -1,12 +1,13 @@
 baseURL: https://danishjoseph.in
 languageCode: en-us
 title: Danish Joseph
-theme: github.com/nodejh/hugo-theme-mini
+theme: github.com/nanxiaobei/hugo-paper
 
 # Default content language, support en (English) / zh (Chinese) / nl (Dutch) / fr (French) / es (Spanish) / da (Danish), default 'en'
 defaultContentLanguage: en
 
-paginate: 3
+pagination:
+  pagerSize: 3
 
 googleAnalytics: G-T1XWYNML89
 disqusShortname: danishjoseph-in
@@ -37,11 +38,11 @@ social:
 # Site parameters
 params:
   # Site Author
-  author: 'Danish Joseph'
+  author: "Danish Joseph"
   # Author biography
-  bio: 'Software Engineer | Tech Enthusiast'
+  bio: "Software Engineer | Tech Enthusiast"
   # Site Description, used in HTML meat
-  description: 'Insights and tutorials on software engineering, coding best practices, and technology trends by Danish Joseph. Stay updated with the latest in software development and enhance your coding skills.'
+  description: "Insights and tutorials on software engineering, coding best practices, and technology trends by Danish Joseph. Stay updated with the latest in software development and enhance your coding skills."
 
   ###########################################
   # Optional Configuration
@@ -59,7 +60,7 @@ params:
   # To hidden post summary in home page, you could set `hiddenPostSummaryInHomePage: true`, default is `false`
   hiddenPostSummaryInHomePage: false
   # Website copyright, default: '© Copyright 2021 ❤️ {params.author}'
-  copyright: ''
+  copyright: ""
 
   useDescriptionReplaceSummary: true
 
